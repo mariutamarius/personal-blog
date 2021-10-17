@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Light 300', sans-serif;
+	background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	background-size: cover;
+}
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+header .logo {
+	display: flex;
+	align-items: center;
+	padding: 0.5em;
+}
+header h1 {
+	font-family: 'Medium 500', cursive;
+	margin: 0.5rem;
+}
+
+header img {
+	display: block;
+	transition: all 2s;
+	width: 100px;
+	height: 100px;
+}
+
+header img:hover {
+	transform: rotate(360deg);
+}
+
+header input {
+	display: block;
+	font-size: 1rem;
+	border: solid 2px black;
+	border-radius: 10px;
+	color: #51A3A3;
+	padding: 0.5rem;
+}
+
+header input::placeholder {
+	color: #51A3A3;
+}
+
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	display: row nowrap;
+	justify-content: space-around;
+}
+
+nav li {
+	font-size: 1.6rem;
+	padding: 1em;
+	background-color: #51A3A3;
+	flex: 1;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: #CA3C25;
+	padding: 1rem;
+}
+
+nav li:hover {
+    background-color:#00272B;
+}
+
+main {
+    margin: 0 10%;
+    padding: 1rem;
+    background-color: white;
+}
+  
+main iframe {
+  max-width: 100%;
+  width: 530px;
+  height: 310px;
+}
+  
+main form {
+  display: flex;
+  flex-direction: column;
+}
+  
+main input {
+  max-width: 10rem;
+}  
+
+footer {
+	background-color: #51A3A3;
+}
+
+footer p {
+	margin: 0;
+	padding: 1rem;
+	text-align: center;
+}
+
+#surprise-button {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px black;
+	border-radius: 10px;
+	color: #51A3A3;
+	padding: 0.5rem;
+}
+
+#surprise-image img{
+	margin: 5px;
+width: 400px;
+height: 400px;
+}
+
+#send-feedback{
+	display: block;
+	font-size: 1rem;
+	border: solid 1px black;
+	border-radius: 10px;
+	color: #51A3A3;
+	padding: 0.5rem;
+}
